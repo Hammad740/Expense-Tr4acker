@@ -62,7 +62,7 @@ li {
 
 .expense-list {
   display: flex;
-
+  flex-direction: column;
   gap: 5px;
   padding: 8px;
   margin: 5px auto;
