@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+    'Lucida Sans', Arial, sans-serif;
+}
+body {
+  background-color: rgba(95, 75, 139, 0.94);
+}
+
+section {
+  margin: 50px auto;
+  padding: 50px;
+  text-align: center;
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(230, 154, 141, 0.922);
+  border-radius: 8px;
+  margin: 0 auto;
+  max-width: 600px;
+  min-height: 70vh;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+.wrapper h1 {
+  margin: 10px auto;
+  font-size: 2.5rem;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+}
+.input-container input {
+  display: block;
+  margin: 15px auto;
+  width: 80%;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  border: solid black 1.3px;
+  border-radius: 5px;
+  padding: 3px;
+}
+button {
+  margin: 10px auto;
+  padding: 10px 7px;
+  font-size: 1rem;
+  font-weight: 700;
+  border: solid black 1.3px;
+  border-radius: 5px;
+  background-color: rgb(95, 75, 139);
+  transition: 0.3s;
+}
+button:hover {
+  background-color: rgba(95, 75, 139, 0.85);
+  transform: scale(1.01);
+}
+
+li {
+  list-style: none;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  margin: 5px auto;
+}
+.expense-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 100px;
+  width: 100%;
+  font-size: 1.3rem;
+}
+.expense-list button {
+  padding: 8px 5px;
+  margin: 5px;
+}
