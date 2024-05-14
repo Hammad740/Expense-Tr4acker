@@ -62,20 +62,26 @@ li {
 
 .expense-list {
   display: flex;
-  flex-direction: column;
   gap: 5px;
   padding: 8px;
   margin: 5px auto;
 }
 .expense-list li {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  column-gap: 100px;
+  column-gap: 80px;
   width: 100%;
   font-size: 1.3rem;
 }
 .expense-list button {
   padding: 8px 5px;
   margin: 5px;
+}
+
+@media screen and (max-width: 425px) {
+  .expense-list li {
+    column-gap: 40px;
+    width: 85%;
+  }
 }
