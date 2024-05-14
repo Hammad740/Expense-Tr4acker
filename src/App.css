@@ -70,7 +70,7 @@ li {
 .expense-list li {
   display: flex;
   justify-content: space-evenly;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   column-gap: 70px;
   width: 100%;
